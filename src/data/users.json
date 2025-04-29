@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Sample User",
+      "phone": "+91-9876543210",
+      "countryCode": "+91",
+      "aadharNumber": "1234-5678-9012",
+      "photoUrl": "https://example.com/photo.jpg",
+      "pinCode": "400001",
+      "area": "Sample Area",
+      "verified": true,
+      "registeredAt": "2024-03-20T10:00:00Z"
+    }
+  ]
+} 
