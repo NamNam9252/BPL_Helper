@@ -15,12 +15,12 @@ import CommunityChats from './pages/CommunityChats';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/BPL_Helper">
         <div className="min-h-screen bg-gray-100">
           <Navbar />
           <main className="pt-16">
             <Routes>
-              <Route path="BPL_Helper/" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/helpdesk" element={<Helpdesk />} />
               <Route path="/about" element={<About />} />
               <Route path="/register" element={<Register />} />
