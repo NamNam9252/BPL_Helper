@@ -20,7 +20,7 @@ function App() {
           <Navbar />
           <main className="pt-16">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="BPL_Helper/" element={<Home />} />
               <Route path="/helpdesk" element={<Helpdesk />} />
               <Route path="/about" element={<About />} />
               <Route path="/register" element={<Register />} />
