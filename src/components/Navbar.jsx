@@ -12,7 +12,7 @@ const Navbar = () => {
   const [readLang, setReadLang] = useState('en');
 
   const navigation = [
-    { name: 'Home', href: '/' },
+    { name: 'Home', href: 'BPL_Helper/' },
     { name: 'Helpdesk', href: '/helpdesk' },
     { name: 'About', href: '/about' },
     { name: 'Register', href: '/register' },
